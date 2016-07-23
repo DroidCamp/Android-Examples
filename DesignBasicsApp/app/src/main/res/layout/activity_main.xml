@@ -35,7 +35,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dip"
             android:maxWidth="250dip"
-            android:textAlignment="gravity"
+            android:textAlignment="textStart"
             android:gravity="fill_horizontal|center_horizontal" />
 
         <RelativeLayout
