@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/big_cast_image" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kkings.cinematics.ui.views.AspectRatioImageViewPoster android:id="@id/actor_image" android:layout_width="@dimen/big_cast_image" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+</RelativeLayout>

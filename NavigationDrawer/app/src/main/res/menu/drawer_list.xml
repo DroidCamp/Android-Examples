@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_filter_1_black_24dp"
+            android:id="@+id/first_nav"
+            android:title="One">
+
+        </item>
+
+        <item android:title="Two"
+            android:id="@+id/second_nav"
+            android:icon="@drawable/ic_filter_2_black_24dp">
+
+        </item>
+
+        <item android:title="Three"
+            android:id="@+id/third_nav"
+            android:icon="@drawable/ic_filter_3_black_24dp">
+
+        </item>
+
+        <item android:title="Sub items">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:icon="@drawable/ic_filter_1_black_24dp"
+                        android:title="Sub item 1" />
+                    <item
+                        android:icon="@drawable/ic_filter_2_black_24dp"
+                        android:title="Sub item 2" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

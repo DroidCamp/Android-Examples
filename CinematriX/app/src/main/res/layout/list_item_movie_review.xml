@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ripple" android:paddingTop="@dimen/list_item_padding" android:paddingBottom="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/review_container" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/review_tomatometer" android:layout_width="@dimen/review_image_size" android:layout_height="@dimen/review_image_size" android:layout_marginRight="@dimen/review_image_right_padding" />
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontDarkGrayColor" android:id="@id/review_critic" android:paddingTop="@dimen/review_critic_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontGrayColor" android:id="@id/review_publication" android:paddingLeft="@dimen/review_publication_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:id="@id/review_quote" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/review_container" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontGrayColor" android:id="@id/review_date" android:paddingTop="@dimen/review_date_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

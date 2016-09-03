@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_edge" android:layout_marginBottom="@dimen/padding_edge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kkings.cinematics.ui.views.TrailerListLayout android:id="@id/movie_trailers" android:layout_width="fill_parent" android:layout_height="wrap_content" app:margin="@dimen/trailer_padding" app:titleId="@string/Trailers" app:listItemLayoutId="@layout/list_item_trailer" />
+</LinearLayout>

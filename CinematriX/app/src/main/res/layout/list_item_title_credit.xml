@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/fontDarkerGrayColor" android:id="@id/title" android:paddingTop="@dimen/padding_edge" android:paddingBottom="@dimen/padding_edge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Title" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontDarkGrayColor" android:layout_gravity="center|right" android:id="@id/credits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 Credit(s)" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EpisodeTextFormat">
+        <item quantity="other">%s episodes</item>
+        <item quantity="one">%s episode</item>
+    </plurals>
+    <plurals name="SetReminder">
+        <item quantity="other">Set Reminders</item>
+        <item quantity="one">Set Reminder</item>
+    </plurals>
+    <plurals name="credits">
+        <item quantity="other">%s credits</item>
+        <item quantity="one">%s credit</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">hours</item>
+        <item quantity="one">hour</item>
+    </plurals>
+    <plurals name="hour_short">
+        <item quantity="other">hrs</item>
+        <item quantity="one">hr</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="minute_short">
+        <item quantity="other">mins</item>
+        <item quantity="one">min</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ripple" android:layout_width="@dimen/movie_poster_width_details" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kkings.cinematics.ui.views.AspectRatioImageViewPoster android:id="@id/title_image" android:background="@color/darkBackgroundColor" android:layout_width="@dimen/movie_poster_width_details" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <TextView android:textSize="@dimen/font_size_big" android:textColor="@color/fontDarkGrayColor" android:ellipsize="end" android:id="@id/title_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:fontFamily="sans-serif-condensed" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontGrayColor" android:id="@id/title_year" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" android:fontFamily="sans-serif-condensed" />
+</LinearLayout>

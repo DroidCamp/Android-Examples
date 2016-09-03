@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ripple" android:layout_width="@dimen/trailer_movie_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:image="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.kkings.cinematics.ui.views.AspectRatioImageView android:id="@id/trailer_image" android:background="@color/darkBackgroundColor" android:layout_width="@dimen/trailer_movie_width" android:layout_height="wrap_content" />
+        <ImageView android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/play" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:ellipsize="end" android:id="@id/trailer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Example Test, Maybe with a little Long" android:maxLines="3" android:fontFamily="sans-serif-condensed" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_edge" android:layout_marginBottom="@dimen/padding_edge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rating_imdb_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.kkings.cinematics.ui.views.AspectRatioImageView android:id="@id/rating_imdb_image" android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/imdb" />
+            <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:id="@id/rating_imdb_rating" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rating_critics_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.kkings.cinematics.ui.views.AspectRatioImageView android:id="@id/rating_critics_image" android:layout_width="45.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:id="@id/rating_critics_score" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rating_audience_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.kkings.cinematics.ui.views.AspectRatioImageView android:id="@id/rating_audience_image" android:layout_width="45.0dip" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:id="@id/rating_audience_score" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

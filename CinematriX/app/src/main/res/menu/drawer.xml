@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_top" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_movie_creation_24dp" android:id="@id/menu_explore" android:title="@string/Menu_Movies" />
+        <item android:icon="@drawable/ic_live_tv_24dp" android:id="@id/menu_tvshow_explore" android:title="@string/Menu_TVShows" />
+        <item android:icon="@drawable/ic_search_24dp" android:id="@id/menu_discover" android:title="@string/Menu_Discover" />
+        <item android:icon="@drawable/ic_person_24dp" android:id="@id/menu_popularpeople" android:title="@string/Menu_PopularPeople" />
+    </group>
+    <group android:id="@id/menu_lists" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_alarm_24dp" android:id="@id/menu_reminders" android:title="@string/Menu_Reminders" />
+    </group>
+    <group android:id="@id/menu_bottom" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_help_24dp" android:id="@id/menu_contactdeveloper" android:title="@string/Menu_ContactDeveloper" />
+        <item android:icon="@drawable/ic_group_work_24dp" android:id="@id/menu_googleplus" android:title="@string/Menu_GooglePlus" />
+        <item android:icon="@drawable/ic_lock_open_24dp" android:id="@id/menu_upgrade" android:title="@string/Menu_UnlockPro" />
+    </group>
+</menu>

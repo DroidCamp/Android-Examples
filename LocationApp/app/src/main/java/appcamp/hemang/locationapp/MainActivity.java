@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             // To execute AsyncTask child class called GetImage
             GetImage getImage = new GetImage();
+
             //Execute the thread using method called execute method
             getImage.execute();
 

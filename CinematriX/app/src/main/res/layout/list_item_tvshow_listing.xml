@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kkings.cinematics.ui.views.TvShowListLayout android:id="@id/movies_list_similar" android:background="@color/lightGrayBackgroundColor" android:paddingTop="@dimen/padding_edge" android:paddingBottom="@dimen/padding_edge" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleMargin="@dimen/padding_edge" app:margin="@dimen/movie_padding" app:titleId="@string/SimilarTVShows" app:viewMoreLayoutId="@layout/list_item_movie_view_more" app:listItemLayoutId="@layout/list_item_movie_big" />
+</LinearLayout>

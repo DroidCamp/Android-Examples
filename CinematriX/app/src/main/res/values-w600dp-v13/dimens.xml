@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="backdrop_height">400.0dip</dimen>
+    <dimen name="banner_height">90.0dip</dimen>
+    <dimen name="big_cast_image">150.0dip</dimen>
+    <dimen name="cast_image">94.0dip</dimen>
+    <dimen name="font_size">18.0sp</dimen>
+    <dimen name="font_size_big">20.0sp</dimen>
+    <dimen name="font_size_small">15.0sp</dimen>
+    <dimen name="font_title_size">22.0dip</dimen>
+    <dimen name="font_toolbar_size">28.0dip</dimen>
+    <dimen name="grid_text_container">68.0dip</dimen>
+    <dimen name="list_item_padding">15.0dip</dimen>
+    <dimen name="movie_clip_margin">-65.0dip</dimen>
+    <dimen name="movie_padding">13.0dip</dimen>
+    <dimen name="movie_poster_margin">19.0dip</dimen>
+    <dimen name="movie_poster_width">100.0dip</dimen>
+    <dimen name="movie_poster_width_details">125.0dip</dimen>
+    <dimen name="padding_edge">28.0dip</dimen>
+    <dimen name="review_critic_top_padding">13.0dip</dimen>
+    <dimen name="review_date_top_padding">4.0dip</dimen>
+    <dimen name="review_image_right_padding">6.0dip</dimen>
+    <dimen name="review_image_size">44.0dip</dimen>
+    <dimen name="review_publication_left_padding">4.0dip</dimen>
+    <dimen name="trailer_movie_width">206.0dip</dimen>
+    <dimen name="trailer_padding">13.0dip</dimen>
+</resources>

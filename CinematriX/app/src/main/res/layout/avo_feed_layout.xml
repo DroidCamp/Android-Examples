@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ad_container" android:background="@drawable/ripple" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/fontGrayColor" android:id="@id/ad_sponsored" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/Sponsored" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-condensed" />
+        <ImageView android:id="@id/ad_privacy" android:padding="10.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/ad_title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ad_sponsored">
+            <ImageView android:id="@id/ad_icon" android:layout_width="@dimen/ad_icon_width" android:layout_height="@dimen/ad_icon_width" android:src="@color/darkBackgroundColor" android:contentDescription="Ad Icon" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/fontDarkGrayColor" android:id="@id/ad_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/movie_poster_margin" android:layout_marginTop="2.0dip" android:text="Super Long Headline" android:layout_toRightOf="@id/ad_icon" />
+            <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontGrayColor" android:id="@id/ad_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/movie_poster_margin" android:layout_marginTop="5.0dip" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" android:layout_toRightOf="@id/ad_icon" android:layout_below="@id/ad_headline" android:fontFamily="sans-serif-condensed" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center" android:id="@id/ad_image_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/ad_title_container">
+            <com.kkings.cinematics.ui.views.AspectRatioImageView android:id="@id/ad_image" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="Ad Image" app:aspectRatio="1.0" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

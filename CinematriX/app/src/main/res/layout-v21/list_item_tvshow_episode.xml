@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ripple" android:paddingTop="@dimen/list_item_padding" android:paddingBottom="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kkings.cinematics.ui.views.AspectRatioImageViewBackdrop android:id="@id/episode_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/movie_poster_margin" android:adjustViewBounds="true" android:elevation="3.0dip" app:aspectRatio="1.7777778" />
+    <LinearLayout android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/episode_image">
+        <TextView android:textColor="@color/fontWhiteColor" android:gravity="center" android:id="@id/episode_number" android:background="@color/lightGrayBackgroundColor" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="1" />
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/fontGrayColor" android:gravity="center" android:id="@id/episode_additional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="May 05, 2015" android:singleLine="true" />
+        <TextView android:textSize="@dimen/font_size_big" android:textColor="@color/fontDarkGrayColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/episode_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Episode Name" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size" android:textColor="@color/fontDarkGrayColor" android:id="@id/episode_overview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/container" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif-condensed" />
+</RelativeLayout>
