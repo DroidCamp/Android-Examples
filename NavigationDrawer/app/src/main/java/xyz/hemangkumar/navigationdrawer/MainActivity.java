@@ -10,7 +10,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -18,12 +20,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout navdrawer;
     ActionBarDrawerToggle actionBarDrawerToggle;
     NavigationView nv;
+    Bundle savedInstanceState;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        this.savedInstanceState = savedInstanceState;
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,6 +46,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case android.R.id.home:
                 navdrawer.openDrawer(GravityCompat.START);
                 return true;
+
+            default:
+               // Toast.makeText(MainActivity.this, "Hey", Toast.LENGTH_SHORT).show();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -60,6 +67,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Fragment fragment = null;
 
         switch(item.getItemId()){
+
+
+
+
             case R.id.first_nav:
                 fragment = OneFragment.newInstance("Hu", "Yo");
                 break;
@@ -78,13 +89,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-
-        fragmentManager.beginTransaction().add(R.id.frame_layout, fragment).commit();
-
+        if(savedInstanceState == null) {
+            fragmentManager.beginTransaction().add(R.id.frame_layout, fragment).commit();
+        }
         item.setChecked(true);
         setTitle(item.getTitle());
 
         navdrawer.closeDrawers();
         return true;
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
 }

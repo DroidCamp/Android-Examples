@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         cars = Car.createCarList(20);
         // Create adapter passing in the sample user data
         CarAdapter adapter = new CarAdapter(cars, this);
-        // Attach the adapter to the recyclerview to populate items
+        // Attach the adapter to the recycler view to populate items
         rvContacts.setAdapter(adapter);
         // Set layout manager to position the items
         rvContacts.setLayoutManager(new StaggeredGridLayoutManager(this, null, 0, 0));

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/miProfile5"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom"
+        android:menuCategory="system"
+        android:orderInCategory="1"
+        android:title="Profile1">
+    </item>
+
+    <item
+        android:id="@+id/miProfile6"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        app:showAsAction="ifRoom"
+        android:menuCategory="system"
+android:orderInCategory="2"
+        android:title="Profile2">
+    </item>
+
+    <item
+        android:id="@+id/miProfile7"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        app:showAsAction="ifRoom"
+        android:menuCategory="system"
+        android:orderInCategory="3"
+        android:title="Profile3">
+    </item>
+</menu>

@@ -35,5 +35,6 @@
         android:id="@+id/drawer"
         android:background="#fff"
         app:menu="@menu/drawer_list"
+        app:headerLayout="@layout/nsv_header"
         ></android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>
